@@ -26,7 +26,7 @@ No extra setup needed. It uses the same `TELESINK_ENDPOINT` as the core gem.
 To send request events to a **separate sink** (recommended for folders):
 
 ```sh
-export TELESINK_REQUESTS_ENDPOINT=https://app.telesink.com/api/v1/sinks/your_requests_sink_token/events
+export TELESINK_REQUESTS_ENDPOINT="https://app.telesink.com/api/v1/sinks/your_requests_sink_token/events"
 ```
 
 ## How it works
